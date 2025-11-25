@@ -37,20 +37,28 @@ Ensure you have the following installed:
 
 Clone the project from your repository and navigate into the directory:
 
-```bash
+bash
 git clone <YOUR_REPO_URL>
 cd next-sale-client
 
 npm install
+
 # or
+
 yarn install
+
 # or
+
 pnpm install
 
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
 
 Route,Functionality,Requires Auth
@@ -62,4 +70,7 @@ Route,Functionality,Requires Auth
 /manage,User account dashboard for managing profile and listings.,✅
 /login,Authentication route for signing in.,❌
 /register,Authentication route for creating a new user account.,❌
+
+```
+
 ```
