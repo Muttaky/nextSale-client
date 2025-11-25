@@ -45,20 +45,35 @@ npm install
 
 npm run dev
 
-Route,Functionality,Requires Auth
-/,
-Homepage & Landing. Features promotions and featured items.,❌
+## 🗺️ Project Routes & Access
 
-/items,Main product catalog listing all available products.,❌
+| Route         | Functionality                                                | Requires Authentication |
+| :------------ | :----------------------------------------------------------- | :---------------------- |
+| `/`           | Homepage & Landing. Features promotions and featured items.  | ❌                      |
+| `/items`      | Main product catalog listing all available products.         | ❌                      |
+| `/items/[id]` | Individual product detail page.                              | ❌                      |
+| `/cart`       | User's shopping cart management view.                        | ✅                      |
+| `/add`        | Form page for a user to post and list new products for sale. | ✅                      |
+| `/manage`     | User account dashboard for managing profile and listings.    | ✅                      |
+| `/login`      | Authentication route for signing in.                         | ❌                      |
+| `/register`   | Authentication route for creating a new user account.        | ❌                      |
 
-/items/[id],Individual product detail page.,❌
+Category: Frontend Framework
+Technology: Next.js (React)
+Purpose: High-performance, SEO-friendly framework with SSG/SSR capabilities.
 
-/cart,User's shopping cart management view.,✅
+Category: Styling & UI
+Technology: Tailwind CSS & daisyUI
+Purpose: Utility-first CSS framework and component library for rapid, responsive UI development.
 
-/add,Form page for a user to post and list new products for sale.,✅
+Category: Authentication
+Technology: Firebase
+Purpose: Secure, scalable, and easy-to-implement user authentication (Sign-in, Registration).
 
-/manage,User account dashboard for managing profile and listings.,✅
+Category: Backend Architecture
+Technology: MERN Stack
+Purpose: The overall architecture uses MongoDB, Express.js, React (via Next.js), and Node.js.
 
-/login,Authentication route for signing in.,❌
-
-/register,Authentication route for creating a new user account.,❌
+Category: Deployment
+Technology: Vercel
+Purpose: Platform for static sites and Serverless Functions, optimized for Next.js.
