@@ -52,7 +52,7 @@ npm run dev
 | `/`           | Homepage & Landing. Features promotions and featured items.  | ❌                      |
 | `/items`      | Main product catalog listing all available products.         | ❌                      |
 | `/items/[id]` | Individual product detail page.                              | ❌                      |
-| `/cart`       | User's shopping cart management view.                        | ✅                      |
+| `/cart`       | User's shopping cart management view.                        | ❌                      |
 | `/add`        | Form page for a user to post and list new products for sale. | ✅                      |
 | `/manage`     | User account dashboard for managing profile and listings.    | ✅                      |
 | `/login`      | Authentication route for signing in.                         | ❌                      |
