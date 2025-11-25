@@ -43,34 +43,22 @@ cd next-sale-client
 
 npm install
 
-# or
-
-yarn install
-
-# or
-
-pnpm install
-
 npm run dev
 
-# or
-
-yarn dev
-
-# or
-
-pnpm dev
-
 Route,Functionality,Requires Auth
-/,Homepage & Landing. Features promotions and featured items.,❌
+/,
+Homepage & Landing. Features promotions and featured items.,❌
+
 /items,Main product catalog listing all available products.,❌
+
 /items/[id],Individual product detail page.,❌
+
 /cart,User's shopping cart management view.,✅
+
 /add,Form page for a user to post and list new products for sale.,✅
+
 /manage,User account dashboard for managing profile and listings.,✅
+
 /login,Authentication route for signing in.,❌
+
 /register,Authentication route for creating a new user account.,❌
-
-```
-
-```
