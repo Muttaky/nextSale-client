@@ -52,28 +52,20 @@ npm run dev
 | `/`           | Homepage & Landing. Features promotions and featured items.  | ❌                      |
 | `/items`      | Main product catalog listing all available products.         | ❌                      |
 | `/items/[id]` | Individual product detail page.                              | ❌                      |
-| `/cart`       | User's shopping cart management view.                        | ❌                      |
+| `/cart`       | User's shopping cart management view.                        | ✅                      |
 | `/add`        | Form page for a user to post and list new products for sale. | ✅                      |
 | `/manage`     | User account dashboard for managing profile and listings.    | ✅                      |
 | `/login`      | Authentication route for signing in.                         | ❌                      |
 | `/register`   | Authentication route for creating a new user account.        | ❌                      |
 
-Category: Frontend Framework
-Technology: Next.js (React)
-Purpose: High-performance, SEO-friendly framework with SSG/SSR capabilities.
 
-Category: Styling & UI
-Technology: Tailwind CSS & daisyUI
-Purpose: Utility-first CSS framework and component library for rapid, responsive UI development.
+## 🗺️ Project used tech
 
-Category: Authentication
-Technology: Firebase
-Purpose: Secure, scalable, and easy-to-implement user authentication (Sign-in, Registration).
+| Category            | Purpose                                                                                 |Technology             |
+| :-----------------  | :-------------------------------------------------------------------------------------- | :-------------------- |
+| Frontend Framework  | High-performance, SEO-friendly framework with SSG/SSR capabilities.                     | Next.js (React)       |
+| Styling & UI        | Utility-first CSS framework and component library for rapid, responsive UI development. | Tailwind CSS & daisyUI|
+| Authentication      | Secure, scalable, and easy-to-implement user authentication (Sign-in, Registration).    | Firebase              |
+| Backend Architecture|The overall architecture uses MongoDB, Express.js, React (via Next.js), and Node.js.     | MERN Stack            |
+| Deployment          | Platform for static sites and Serverless Functions, optimized for Next.js.              | Vercel                |
 
-Category: Backend Architecture
-Technology: MERN Stack
-Purpose: The overall architecture uses MongoDB, Express.js, React (via Next.js), and Node.js.
-
-Category: Deployment
-Technology: Vercel
-Purpose: Platform for static sites and Serverless Functions, optimized for Next.js.
